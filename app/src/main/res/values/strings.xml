@@ -30,16 +30,21 @@
     <string name="address">Home Address</string>
     <string name="defaul">Default Location</string>
     <string name="term">Agree with Terms and Conditions</string>
-    <string-array name="bloodtype">
-        <item>Blood Type</item>
-        <item>A</item>
-        <item>B</item>
-        <item>O</item>
-        <item>AB</item>
-    </string-array>
-    <string-array name="Reshus">
-        <item>Reshus</item>
-        <item>Positive</item>
-        <item>Negative</item>
-    </string-array>
+    <string name="nama">Divian Ajie Permana</string>
+    <string name="goldar">Blood Type : A</string>
+    <string name="tujulima">75</string>
+    <string name="seratus">100</string>
+    <string name="tigatiga">335</string>
+    <string name="give">BLOOD GIVE</string>
+    <string name="rcv">BLOOD RECEIVE</string>
+    <string name="thx">THANKS</string>\
+    <string name="imgSearch">Search Donor</string>
+    <string name="imgNeeded">Blood Needed</string>
+    <string name="imgMess">Message</string>
+    <string name="imgHistory">Donor History</string>
+    <string name="txtSearch">Search donor near you</string>
+    <string name="txtNeeded">4 Users Need Blood</string>
+    <string name="txtMess">5 New Messages</string>
+    <string name="txtHistory">5 Gives, 2 Receives</string>
+
 </resources>
