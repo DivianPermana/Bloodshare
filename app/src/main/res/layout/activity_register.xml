@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_header"
+        android:paddingLeft="@dimen/dimen22"
+        android:paddingRight="0">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_header_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimen20"
+            android:text="@string/reg"
+            android:textSize="@dimen/font20"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen30"
+        android:paddingRight="@dimen/dimen30">
+
+        <EditText
+            android:id="@+id/txtUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen25"
+            android:hint="@string/username"
+            android:textSize="@dimen/font14"
+            android:backgroundTint="@color/bginv"
+            android:paddingBottom="@dimen/dimen18"/>
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen14"
+            android:hint="@string/email"
+            android:textSize="@dimen/font14"
+            android:backgroundTint="@color/bginv"
+            android:paddingBottom="@dimen/dimen18"/>
+
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen14"
+            android:textSize="@dimen/font14"
+            android:hint="@string/phone"
+            android:backgroundTint="@color/bginv"
+            android:paddingBottom="@dimen/dimen18"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen13"
+                android:orientation="horizontal">
+                <ImageView
+                    android:paddingLeft="@dimen/font12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_register_radio_on"/>
+                <TextView
+                    android:id="@+id/radMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="@dimen/dimen12"
+                    android:textSize="@dimen/font14"
+                    android:paddingRight="@dimen/dimen100"
+                    android:gravity="center"
+                    android:text="@string/genderm" />
+                <ImageView
+                    android:paddingLeft="@dimen/font12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_register_radio_off"/>
+
+                <TextView
+                    android:id="@+id/radFem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="@dimen/dimen12"
+                    android:textSize="@dimen/font14"
+                    android:text="@string/genderf"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen15"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtBlood"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/blood"
+                android:textColor="@color/desc"
+                android:drawablePadding="@dimen/dimen25"
+                android:drawableEnd="@drawable/ic_register_dropdown"
+                android:gravity="center"
+                android:backgroundTint="@color/bginv"
+                android:textSize="@dimen/font14"
+                android:paddingBottom="@dimen/dimen18"/>
+
+            <EditText
+                android:id="@+id/txtRhes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/rhesus"
+                android:textColor="@color/desc"
+                android:drawablePadding="@dimen/dimen60"
+                android:drawableEnd="@drawable/ic_register_dropdown"
+                android:layout_marginLeft="@dimen/dimen60"
+                android:gravity="center"
+                android:backgroundTint="@color/bginv"
+                android:textSize="@dimen/font14"
+                android:paddingBottom="@dimen/dimen18"
+                />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen8"
+            android:textSize="@dimen/font14"
+            android:hint="@string/pass"
+            android:backgroundTint="@color/bginv"
+            android:paddingBottom="@dimen/dimen18"/>
+
+        <EditText
+            android:id="@+id/txtRetype"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/font14"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen8"
+            android:hint="@string/retype"
+            android:backgroundTint="@color/bginv"
+            android:paddingBottom="@dimen/dimen18"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen13"
+            android:orientation="horizontal">
+            <ImageView
+                android:paddingLeft="@dimen/font12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_register_radio_on"/>
+            <TextView
+                android:id="@+id/radPerson"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/dimen12"
+                android:paddingRight="@dimen/dimen76"
+                android:gravity="center"
+                android:textSize="@dimen/font14"
+                android:text="@string/personal" />
+            <ImageView
+                android:paddingLeft="@dimen/font12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_register_radio_off"/>
+
+            <TextView
+                android:id="@+id/radOrgan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/dimen12"
+                android:textSize="@dimen/font14"
+                android:text="@string/organization"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen8"
+            android:hint="@string/job"
+            android:drawableEnd="@drawable/ic_register_dropdown"
+            android:backgroundTint="@color/bginv"
+            android:textSize="@dimen/font14"
+            android:paddingBottom="@dimen/dimen18"/>
+
+        <EditText
+            android:id="@+id/txtAddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen8"
+            android:hint="@string/address"
+            android:backgroundTint="@color/bginv"
+            android:textSize="@dimen/font14"
+            android:paddingBottom="@dimen/dimen18"/>
+
+        <EditText
+            android:id="@+id/txtDefaul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen8"
+            android:hint="@string/defaul"
+            android:backgroundTint="@color/bginv"
+            android:textSize="@dimen/font14"
+            android:paddingBottom="@dimen/dimen18"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/term"
+            android:drawableStart="@drawable/ic_register_terms_on"
+            android:drawablePadding="@dimen/dimen22"/>
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonwhite"
+            android:layout_marginTop="@dimen/dimen15"
+            android:text="@string/reg"
+            android:textColor="@color/lightblue"/>
+
+
+    </LinearLayout>
+</LinearLayout>

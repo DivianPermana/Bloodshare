@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen32"
+    android:paddingRight="@dimen/dimen32"
+    tools:context=".AlmostThere">
+
+    <TextView
+        android:id="@+id/txtAlmost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen144"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/almostthere"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font32" />
+
+    <TextView
+        android:id="@+id/txtThx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen22"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/thank"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font12" />
+
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="@dimen/dimen76"
+        android:text="@string/verifybtn"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

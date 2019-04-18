@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Bloodshare</string>
+    <string name="username">Username</string>
+    <string name="pass">Password</string>
+    <string name="login"><b>Login</b></string>
+    <string name="or"><b>OR</b></string>
+    <string name="confb">CONNECT WITH FACEBOOK</string>
+    <string name="reg">Register</string>
+    <string name="bloodshare">bloodsharelogo</string>
+    <string name="doesn_t_have_account">doesn\'t have account ?</string>
+    <string name="almostthere">Almost There</string>
+    <string name="thank">Thank you for registering with us. One more\n step, you need to check your email\n to activate your account</string>
+    <string name="verifybtn">Verify</string>
+    <string name="verify">Verify your Account</string>
+    <string name="sendemail">We have send verification code to your email</string>
+    <string name="enterkode">enter verification code here...</string>
+    <string name="send">Send</string>
+    <string name="doesn_t_get_the_code">doesn\'t get the code ?</string>
+    <string name="resend"><b>Resend</b></string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="genderm">Male</string>
+    <string name="genderf">Female</string>
+    <string name="blood">Blood Type       </string>
+    <string name="rhesus">Reshus</string>
+    <string name="retype">Retype Password</string>
+    <string name="personal">Personal</string>
+    <string name="organization">Organization</string>
+    <string name="job">Job</string>
+    <string name="address">Home Address</string>
+    <string name="defaul">Default Location</string>
+    <string name="term">Agree with Terms and Conditions</string>
+    <string-array name="bloodtype">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+    <string-array name="Reshus">
+        <item>Reshus</item>
+        <item>Positive</item>
+        <item>Negative</item>
+    </string-array>
+</resources>

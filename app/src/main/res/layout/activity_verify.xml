@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen32"
+    android:paddingRight="@dimen/dimen32"
+    tools:context=".Verify">
+
+    <TextView
+        android:id="@+id/txtVerifing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen144"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/verify"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font32" />
+
+    <TextView
+        android:id="@+id/txtVerifing2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen22"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/sendemail"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font13" />
+
+    <EditText
+        android:id="@+id/txtKode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen32"
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:hint="@string/enterkode"
+        android:textColor="@color/bg"
+        android:textColorHint="@color/bg"
+        android:textSize="@dimen/font15" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:background="@drawable/button"
+        android:layout_marginTop="@dimen/dimen22"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dimen22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtDont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/doesn_t_get_the_code"
+            android:textColor="@color/bg" />
+
+        <Button
+            android:layout_width="@dimen/dimen60"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttontxt"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/resend"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</LinearLayout>
